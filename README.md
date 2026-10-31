@@ -1,24 +1,24 @@
 # Startup Audit
 
-Windows 启动项聚合分析工具。
+Windows startup item aggregator.
 
-## 功能
+## Features
 
-- 注册表 Run 键（HKLM + HKCU）
-- 启动文件夹
-- 计划任务
-- 标注可安全禁用的项目
-- 导出 CSV
+- Registry Run keys (HKLM + HKCU)
+- Startup folder
+- Scheduled tasks
+- Mark safe-to-disable items
+- Export to CSV
 
-## 编译
+## Build
 
 ```
 build.cmd
 ```
 
-需要 .NET Framework 4.8。
+Requires .NET Framework 4.8.
 
-## 运行
+## Run
 
 ```
 bin\StartupAudit.exe
